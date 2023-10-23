@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopper Template</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header {
+           display: flex;
+           justify-content: space-between;
+           font-size: 25px;
+           font-family: Arial;
+           background-color:crimson;
+           color:white;
+           padding: 20px;
+        }
+        .brand-title {
+            font-size: 35px;
+            font-weight: bold;
+        }
+        nav span {
+            margin-right: 20px;
+        }
+        .quick-links span {
+            margin-right: 10px;
+        }
+        article {
+            background-color: black;
+            color:white;
+            font-size: 20px;
+            text-align: center;
+            padding: 10px;
+            margin-top: 15px;
+        }
+        article span {
+            color:gold;
+        }
+        section {
+            height: 200px;
+        }
+        footer {
+            background-color: black;
+            color:white;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr ;
+            font-family: Arial;
+            height: 200px;
+        }
+        .brand-title+div {
+            margin-top: 15px;
+        }
+        .brand-title+div span {
+            margin-right: 10px;
+        }
+        .footer-title {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .footer-title~div {
+            margin-bottom: 15px;
+            color:gray;
+        }
+        address div {
+            margin-bottom: 15px;
+        }
+        section {
+            padding-bottom: 3000px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+        }
+        table {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+     <header>
+        <div>
+            <span class="brand-title">Shopper.</span>
+        </div>
+        <div>
+            <nav>
+                <span>Home</span>
+                <span>Catalog</span>
+                <span>Pages</span>
+                <span>Blog</span>
+                <span>Shop</span>
+                <span>Docs</span>
+            </nav>
+        </div>
+        <div class="quick-links">
+            <span class="bi bi-search"></span>
+            <span class="bi bi-person"></span>
+            <span class="bi bi-heart"></span>
+            <span class="bi bi-cart"></span>
+        </div>
+     </header>
+     <article>
+        <span class="bi bi-lightning-fill"></span> PIDILITE <span class="bi bi-lightning-fill"></span>
+     </article>
+      <section>
+            <table width="100%" frame="void" border="1" cellspacing="10" cellpadding="5">
+                <tr>
+                    <td>
+                        <img src="https://m.media-amazon.com/images/I/51Ejv6ZVk-L._SX679_.jpg" alt="">
+                        <p>ZORRIK</p>
+                    </td>
+                    <td>
+                        <img src="https://m.media-amazon.com/images/I/51iXu11jMdL._SX522_.jpg" alt="">
+                        <p>WD-40</p>
+                    </td>
+                    <td>
+                        <img src="https://rukminim2.flixcart.com/image/416/416/kfbfr0w0/adhesive/5/m/g/20-fevikwik-gp-20-gm-pidilite-original-imafvtyykawfu5pg.jpeg?q=70" alt="">
+                        <p>FEWI KWIK GP</p>
+                    </td>
+                    <td>
+                        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRtcbsNA3Q9lrzdE2eWzlHcxDPrgsptPNiyB4_PindT-04iZJBlPSkxYaXS2IMbcS-IOF-OpvtIW3VUXYEHyDa4EENNrsNT5vNprUnZ1mijkqOiJ_gK1gP1qE465AQoGmtQ8_V9GHE&usqp=CAc" alt="">
+                        <p>FEVITITE RAPID & CLEAR</p>
+                    </td>
+                    <td>
+                        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTGa-AYvVjvXgcTPdfYnWPoISNVuZrUPUFkjNjXg_T-bP0yDR1_Or1-ovrSVpfFbiquaEa-TcgMM7cj5ajpopQPnmFS2KT5IT_Q4B53yBJksaXuzD38v1heHhyFU8J86ubYSZ09jg&usqp=CAc" alt="">
+                        <p>FEVITITE-SUPER STRONG</p>
+                    </td>
+                    <td>
+                        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTT-ymf6KDhHMdyYlH_83zocpxogCPXWf_k6kb8CyjRJ1dZq2Q6LIV9w1Ya0t6qnwx4Y_L3OUpQi1vC8MSypctnCwdmbKLJsabgcpM0lbB3BhX_sRpTGsEiUj_vDwYB-pZst4weEKSAEzo&usqp=CAc" alt="">
+                        <p>PTFE TAPE</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOWXVyPQM4azNk8KPrKaF8VnY03VkNurktLAaLv-LoTCDHjbFDXXTm&usqp=CAE&s" alt="">
+                        <p>STEEL GRIP</p>
+                    </td>
+                    <td>
+                        <img src="https://m.media-amazon.com/images/I/413omTpswML._SX300_SY300_QL70_FMwebp_.jpg" alt="">
+                        <p>M SEAL PHATAPHAT</p>
+                    </td>
+                    <td>
+                        <img src="data:image/webp;base64,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" alt="">
+                        <p>M SEAL EPOXY COMPOUNT</p>
+                    </td>
+                    <td>
+                        <img src="data:image/jpeg;base64,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" alt="">
+                        <p>HOLDTITE</p>
+                    </td>
+                    <td>
+                        <img src="https://5.imimg.com/data5/IB/WT/UE/SELLER-4065459/fevikwik-203-500x500.jpg" alt="">
+                        <p>FEWI KWIK 203</p>
+                    </td>
+                    <td>
+                        <img src="https://rukminim2.flixcart.com/image/416/416/l1grgcw0/adhesive/7/x/e/20-flexkwik-pidilite-original-imagdyswxf7yrnqc.jpeg?q=70" alt="">
+                        <p>FLEX KWIK</p>
+                    </td>
+                </tr>
+
+            </table><BR></BR>
+            <article>
+                <span class="bi bi-lightning-fill"></span> CABLE TIES <span class="bi bi-lightning-fill"></span>
+             </article>
+             <table width="100%" frame="void" border="1" cellspacing="10" cellpadding="5">
+                <tr>
+                    <td>
+                        <img src="https://mrocrib.com/4022-large_default/08ssct.jpg" alt="">
+                        <p>STAINLESS STEEL CABLE TIES</p>
+                    </td>
+                    <td>
+                        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQmX0iS4gN966DCOA66am8NxVEale2Xn3Wfp8NQ9Km13EQky5v0uCncIM1MMFLJyAMxcayjerKTs9By3z4cBlYdb5MkWwZ88aSQLjvcClGlRWIJATlgO1TA&usqp=CAE" alt="">
+                        <p>NYLON CABLE TIES</p>
+                    </td>
+                   
+                </tr>
+
+            </table><br><br>
+            <article>
+                <span class="bi bi-lightning-fill"></span> TRINITY TOUCH <span class="bi bi-lightning-fill"></span>
+             </article>
+             <table width="100%" frame="void" border="1" cellspacing="10" cellpadding="5">
+                <tr>
+                    <td>
+                        <img src="https://teel.in/wp-content/uploads/2023/09/118er5Iv1BL.jpg" alt="">
+                        <p>ABX BOX/ TRIBOX</p>
+                    </td>
+                    <td>
+                        <img src="https://5.imimg.com/data5/NH/JH/ZE/SELLER-30950497/trans-500x500.png" alt="">
+                        <p>PVC CHANNELS & DIN RAIL</p>
+                    </td>
+                   
+                </tr>
+
+            </table><br><br>
+            <article>
+                <span class="bi bi-lightning-fill"></span> SAFETY PRODUCTS <span class="bi bi-lightning-fill"></span>
+             </article>
+            <table width="100%" frame="void" border="1" cellspacing="10" cellpadding="5">
+                <tr>
+                    <td>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2023/6/319137509/AU/DU/PC/4314391/reflective-safety-jacket-500x500.jpg" alt="">
+                        <p>SAFETY JACKETS</p>
+                    </td>
+                    <td>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2021/8/OF/KK/EY/113291012/danger-8-inch-x-8-inch-01-01-500x500.jpg" alt="">
+                        <p>DANGER BORD</p>
+                    </td>
+                    <td>
+                        <img src="https://4.imimg.com/data4/EL/XB/MY-5005559/1-500x500.jpg" alt="">
+                        <p>FIRST AID BOX</p>
+                    </td>
+                    <td>
+                        <img src="https://www.kanexfire.com/images/product/img-1.png" alt="">
+                        <p>FIRE EXTINGUISHER</p>
+                    </td>
+                    <td>
+                        <img src="https://5.imimg.com/data5/NU/DS/MY-11448339/industrial-safety-belt-500x500.jpg" alt="">
+                        <p>SAFETY BELT</p>
+                    </td>
+                    <td>
+                        <img src="https://cdn.moglix.com/p/0uHPvnrGwuz2G-xxlarge.jpg" alt="">
+                        <p>HAND GLOVES</p>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://cdn.moglix.com/p/I/T/Z/d/MINITZAOIU8QO-xxlarge.jpg" alt="">
+                        <p>SAFETY GOGGLE</p>
+                    </td>
+                    <td>
+                        <img src="https://cdn.moglix.com/p/I/O/J/d/MINIOJ6NIU5C3-xxlarge.jpg" alt="">
+                        <p>SAFETY HELMET</p>
+                    </td>
+                    <td>
+                        <img src="https://m.media-amazon.com/images/I/21wUVLyd+QL.jpg" alt="">
+                        <p>SAFETY SHOES</p>
+                    </td>
+                    <td>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2023/5/309603072/NC/NA/RY/20491536/prod-20230519-1806548764317297210693324-jpg-500x500.jpeg" alt="">
+                        <p>RUBBER MAT</p>
+                    </td>
+                    <td>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2021/4/CV/KS/KC/23689615/v44-mask-pack-of-50--500x500.jpg" alt="">
+                        <p>SAFETY MASK</p>
+                    </td>
+                    <td>
+                        <img src="https://lifesafety.in/wp-content/uploads/2020/04/Fire-Bucket-Stand.jpg" alt="">
+                        <p>FIRE BUCKET STAND</p>
+                    </td>
+                </tr>
+
+            </table><BR></BR>
+            <article>
+                <span class="bi bi-lightning-fill"></span> BRACO <span class="bi bi-lightning-fill"></span>
+             </article>
+            <table width="100%" frame="void" border="1" cellspacing="10" cellpadding="5">
+                <tr>
+                    <td>
+                        <img src="https://5.imimg.com/data5/ANDROID/Default/2021/8/GJ/TQ/QJ/1225205/product-jpeg-500x500.jpg" alt="">
+                        <p>DOUBLE</p>
+                    </td>
+                    <td>
+                        <img src="https://5.imimg.com/data5/ANDROID/Default/2021/8/SO/FE/XH/1225205/product-jpeg-500x500.jpg" alt="">
+                        <p>SINGLE</p>
+                    </td>
+                    <td>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2023/5/310404938/ZC/NA/EQ/122665464/brass-flange-cable-glands-500x500.jpg" alt="">
+                        <p>FLANG</p>
+                    </td>
+                    <td>
+                        <img src="https://i2.wp.com/rujutaent.com/wp-content/uploads/2018/01/PGBRACO.jpg?resize=190%2C190&ssl=1" alt="">
+                        <p>PG/PVC</p>
+                    </td>
+                    <td>
+                        <img src="https://i1.wp.com/rujutaent.com/wp-content/uploads/2018/01/BRASSPG.jpg?w=235&ssl=1" alt="">
+                        <p>METAL PG</p>
+                    </td>
+                    <td>
+                        <img src="https://i1.wp.com/rujutaent.com/wp-content/uploads/2018/01/BRASSPG.jpg?w=235&ssl=1" alt="">
+                        <p>BIMETAL LUG</p>
+                    </td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <img src="https://lh3.googleusercontent.com/p/AF1QipOq4UgzvqEGmHX9dJEQg7HHbf8u-tulUcsH3pkC=s1360-w1360-h1020" alt="" style="width: 400px;">
+                        <p>COPPER & ALLUMINIUM LUGS HT / LT-HEAVY DUTY / LIGHT DUTY / LONG BARREL</p>
+                    </td>
+                    <td>
+                        <img src="BRACO.PNG" alt="">
+                        <p>LUGS, TERMINALS & GLANDS</p>
+                    </td>
+                    <td colspan="2">
+                        <img src="PIN_TYPE.png" alt="">
+                        <p>PIN TYPE - NON-INSULATED / INSULATED</p>
+                    </td>
+                    <td>
+                        <img src="https://i0.wp.com/rujutaent.com/wp-content/uploads/2018/01/WPC.jpg?w=235&ssl=1" alt="">
+                        <p>ALU COPPER PIN LUG</pp>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <img src="ringtypeNI_I.png" alt="" style="width: 300px;">
+                        <p>RING TYPE-NON INSULATED / INSULATED</p>
+                    </td>
+                    <td colspan="2">
+                        <img src="forktype.png" alt="" style="width: 300px;">
+                        <p>FORK TYPE NON INSULATED / INSULATED</p>
+                    </td>
+                    <td colspan="2">
+                        <img src="esfBraco.png" alt="" style="width: 300px;">
+                        <p>END SEALING FERRULE - INSULATED / NON INSULATED</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://i2.wp.com/rujutaent.com/wp-content/uploads/2018/01/ILA.jpg?w=235&ssl=1" alt="">
+                        <p>IN LINE CONNECTOR</p>
+                    </td>
+                    <td>
+                        <img src="https://rukminim2.flixcart.com/image/416/416/crimper/x/u/z/tyqk-braco-original-imaebs4hajbfgwnf.jpeg?q=70" alt="">
+                        <p>TYQK - 300</p>
+                    </td>
+                    <td>
+                        <img src="http://www.pandatools.ph/image/cache/catalog/Electrical%20Tools/crimping%20tool%20ap-005h-228x228.jpg" alt="">
+                        <p>T - 005</p>
+                    </td>
+                    <td>
+                        <img src="https://i0.wp.com/rujutaent.com/wp-content/uploads/2020/04/btz888.jpg?w=249&ssl=1" alt="">
+                        <p>CRIMPING PASTE</p>
+                    </td>
+                    <td>
+                        <img src="https://5.imimg.com/data5/MB/TN/MY-14075953/brass-earth-tags-250x250.jpg" alt="">
+                        <p>EARTH TAG</p>
+                    </td>
+                    <td>
+                        <img src="https://tiimg.tistatic.com/fp/1/003/203/p-v-c-shroud-869.jpg" alt="">
+                        <p>SHROUD / HOOD</p>
+                    </td>
+                    
+                </tr>
+
+            </table><BR></BR>
+            <article>
+                <span class="bi bi-lightning-fill"></span> S G ELECTRIC <span class="bi bi-lightning-fill"></span>
+             </article>
+              <section>
+                    <table width="100%" frame="void" border="1" cellspacing="10" cellpadding="5">
+                        
+                        <tr>
+                            <td>
+                                <img src="https://www.asconterminal.com/images/upload/5b1f5fa121c03-Al.%20Lug%20For%20XLPE%20HT%20Cable%2011%20KV.png" alt="">
+                                <p>XLPE / HT / LONG BARREL</p>
+                            </td>
+                            <td>
+                                <img src="https://www.asconterminal.com/images/upload/5b1f93c11fb5d-Al.%20Ferrule%20For%20XLPE%20HT%20Cable%20(DIN%2046267)%20Standard.png" alt="">
+                                <p>XLPE / HT & PVC / PILC / LT FERRULE</p>
+                            </td>
+                            <td>
+                                <img src="https://5.imimg.com/data5/XF/XW/GF/SELLER-1496920/copper-lugs-500x500.jpg" alt="">
+                                <p> PVC / PILC / LT</p>
+                            </td>
+                            <td>
+                                <img src="https://4.imimg.com/data4/YE/QT/MY-37378/4-500x500.jpg" alt="">
+                                <p>DPDH LUGS</p>
+                            </td>
+                            <td>
+                                <img src="https://www.te.com/content/dam/te-com/images/aerospace-defense-and-marine/aerospace/global/product-hero-rendition/Connectors-hero-rendition/copalum-lite.jpg/jcr:content/renditions/hero-product-master.jpg?w=470" alt="">
+                                <p>SPESIAL PURPOSE LUGS</p>
+                            </td>
+                            <td>
+                                <img src="https://amiableimpex.com/cable-lug/t-connector/t-connector.jpg" alt="">
+                                <p>TEE LUG</p>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/863/MFG_CT-980CH.jpg" alt="">
+                                <p>H-1000/HTL5</p>
+                            </td>
+                            <td>
+                                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcREFE_usCiIhaCjGcSQrkDxXuaFyuSN42H3iJRj696BIuqMqPgeF_cG-qJIXZHhh6uDM-whJJUX89-KujnPunzKPNapsGXKtyi3_efQhz8s4BOEXO44uY1D&usqp=CAE" alt="">
+                                <p>H-630/HTL2</p>
+                            </td>
+                            <td>
+                                <img src="H400.png" alt="">
+                                <p> H-400</p>
+                            </td>
+                            <td>
+                                <img src="H185.png" alt="">
+                                <p>H-185</p>
+                            </td>
+                            <td>
+                                <img src="LTR1_7.png" alt="">
+                                <p>1.2 LTR / 7 LTR</p>
+                            </td>
+                            <td>
+                                <img src="https://www.ultimategarage.com/shop/images/985914die.jpg" alt="">
+                                <p>HX TYPE DIES</p>
+                            </td>
+                    
+                        </tr>
+        
+                    </table><BR></BR>
+                    <article>
+                        <span class="bi bi-lightning-fill"></span> WIRES <span class="bi bi-lightning-fill"></span>
+                     </article>
+                     <table width="100%" frame="void" border="1" cellspacing="10" cellpadding="5">
+                        <tr>
+                            <td>
+                                <img src="https://img1.exportersindia.com/product_images/bc-full/dir_9/244120/nyvin-cables-1488718814-1933813.jpeg" alt="">
+                                <p>NYVIN CABLES / UNIVIN CABLES</p>
+                            </td>
+                            <td>
+                                <img src="https://static.vwcable.com/wp-content/uploads/co-dycable/Aluminium-Conductor-PVC-PE-Coated-Cover-Electrical-Wire.jpg" alt="">
+                                <p>ALUMINIUM CONDUCTOR</p>
+                            </td>
+                            <td>
+                                <img src="https://5.imimg.com/data5/SELLER/Default/2023/8/339365033/ZQ/EC/IP/6984788/cable-jointing-kit-500x500.jpg" alt="">
+                                <p>JOINTING KITS</p>
+                            </td>
+                            <td>
+                                <img src="https://5.imimg.com/data5/SELLER/Default/2022/6/US/GK/FM/14440283/polycabe-500x500.jpg" alt="">
+                                <p>POLYCAB WIRE & CABLES</p>
+                            </td>
+                           
+                        </tr>
+        
+                    </table><br><br>
+                    <article>
+                        <span class="bi bi-lightning-fill"></span> SLIVES <span class="bi bi-lightning-fill"></span>
+                     </article>
+                     <table width="100%" frame="void" border="1" cellspacing="10" cellpadding="5">
+                        <tr>
+                            <td>
+                                <img src="https://www.szvolsun.com/Uploads/201504/thumb_300_300_553744544e1c2.jpg" alt="">
+                                <p>BUS BAR HEAT SHRINK SLEEVE</p>
+                            </td>
+                            <td>
+                                <img src="https://5.imimg.com/data5/SELLER/Default/2023/7/327299640/FL/AB/ZX/182138372/pvc-spiral-sleeve-500x500.jpg" alt="">
+                                <p>SPIRAL SLEEVE</p>
+                            </td>
+                            <td>
+                                <img src="https://m.media-amazon.com/images/I/41jmMbA9ldL._SY445_SX342_QL70_FMwebp_.jpg" alt="">
+                                <p>MARKING SLEEVE</p>
+                            </td>
+                            <td>
+                                <img src="https://5.imimg.com/data5/KE/BJ/QR/SELLER-1795674/pvc-sleeve-500x500.jpg" alt="">
+                                <p>PVC SLEEVE</p>
+                            </td>
+                            <td>
+                                <img src="https://m.media-amazon.com/images/I/51xy4OKrOHL._SX679_.jpg" alt="">
+                                <p>PVC STICKER PAD</p>
+                            </td>
+                            <td>
+                                <img src="https://5.imimg.com/data5/ZH/NE/HY/SELLER-89320460/non-adhesive-tape-1000x1000.jpeg" alt="">
+                                <p>NON ADHESHIVE TAPE</p>
+                            </td>
+                            <td>
+                                <img src="https://5.imimg.com/data5/SELLER/Default/2023/9/340619140/QW/ZY/RP/14014432/polyolefin-heat-shrinkable-sleeve-250x250.jpg" alt="">
+                                <p>WOER SLEEVE</p>
+                            </td>
+                           
+                        </tr>
+        
+                    </table><br><br>
+                    <article>
+                        <span class="bi bi-lightning-fill"></span> SALZER <span class="bi bi-lightning-fill"></span>
+                     </article>
+                     <table width="100%" frame="void" border="1" cellspacing="10" cellpadding="5">
+                        <tr>
+                            <td>
+                                <img src="https://www.tradeindia.com/_next/image/?url=https%3A%2F%2Fcpimg.tistatic.com%2F05647169%2Fb%2F4%2FPVC-Channel.jpg&w=384&q=75" alt="">
+                                <p>PVC CHANNEL</p>
+                            </td>
+                            <td>
+                                <img src="https://5.imimg.com/data5/SELLER/Default/2022/6/WY/TM/BX/24783243/salzer-load-break-switch-500x500.png" alt="">
+                                <p>LOAD BREAKER SWITCH</p>
+                            </td>
+                            <td>
+                                <img src="https://m.media-amazon.com/images/I/41QkQF4v2SL._SY445_SX342_QL70_FMwebp_.jpg" alt="">
+                                <p>ROTARY SWITCH</p>
+                            </td>
+                            <td>
+                                <img src="https://www.flyrobo.in/image/cache/wp/gj/pyf14a-14-pin-din-rail-power-relay-socket-base/pyf14a-14-pin-din-rail-power-relay-socket-base1-550x550.webp" alt="">
+                                <p>REALAY BASE</p>
+                            </td>
+                            <td>
+                                <img src="https://in.element14.com/productimages/standard/en_US/3762772.jpg" alt="">
+                                <p>RELAY</p>
+                            </td>
+                            <td>
+                                <img src="https://m.media-amazon.com/images/I/31d2XOaL3HL._SY445_SX342_QL70_FMwebp_.jpg" alt="">
+                                <p>L&T MCB</p>
+                            </td>
+                            <td>
+                                <img src="https://www.zillionsbuyer.com/uploads/product_image/product_3972_1.jpg" alt="">
+                                <p>AUTOMATIC CHANGE OVER SWITCH</p>
+                            </td>
+                            <td>
+                                <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1048/GLDA01D.jpg" alt="">
+                                <p>LIMIT SWITCH</p>
+                            </td>
+                        </tr>
+        
+                    </table><br><br>
+                    <article>
+                        <span class="bi bi-lightning-fill"></span> INSULATORS <span class="bi bi-lightning-fill"></span>
+                     </article>
+                     <table width="100%" frame="void" border="1" cellspacing="10" cellpadding="5">
+                        <tr>
+                            <td>
+                                <img src="https://5.imimg.com/data5/SELLER/Default/2023/7/329886812/OI/FE/WX/193554450/25mm-dmc-insulator-1-500x500.jpg" alt="">
+                                <p>DMC INSULATORS</p>
+                            </td>
+                            <td>
+                                <img src="https://cdn.everyspareparts.com/wp-content/uploads/2022/07/PG-028.jpg" alt="">
+                                <p>EPOXY INSULATOR CYLINDRICAL</p>
+                            </td>
+                            <td>
+                                <img src="https://autocon.biz/image/cache//panel-acc/supporter/l-type-bus-bar-supporter1-372x372.jpg" alt="">
+                                <p>L SUPPORT</p>
+                            </td>
+                            <td>
+                                <img src="https://www.tradeindia.com/_next/image/?url=https%3A%2F%2Fcpimg.tistatic.com%2F05295415%2Fb%2F4%2FT-Type-Busbar-Support.jpg&w=384&q=75" alt="">
+                                <p>T SUPPORT</p>
+                            </td>
+                            <td>
+                                <img src="https://2.imimg.com/data2/EJ/ST/MY-3411011/1-way-finger-type-support-500x500.jpg" alt="">
+                                <p>FINGER SUPPORT</p>
+                            </td>
+                            <td>
+                                <img src="https://robu.in/wp-content/uploads/2019/08/12-Pin-Pluggable-Screw-Terminal-Block-3.jpg" alt="">
+                                <p>TERMINAL STRIP</p>
+                            </td>
+                            
+                        </tr>
+                    </table><br><br>
+
+                        <article>
+                            <span class="bi bi-lightning-fill"></span> GENERIC PRODUCTS <span class="bi bi-lightning-fill"></span>
+                         </article>
+                        <table width="100%" frame="void" border="1" cellspacing="10" cellpadding="5">
+                            <tr>
+                                <td>
+                                    <img src="https://5.imimg.com/data5/SELLER/Default/2022/4/ZE/QK/GV/11989014/push-button-element-no-nc-red-green-emergency-selector-22mm-500x500.JPG" alt="">
+                                    <p>PUSHBUTTON, NO / NC KEY SELECTOR SWITCH</p>
+                                </td>
+                                <td>
+                                    <img src="https://m.media-amazon.com/images/I/417DWDmBniL._SY445_SX342_QL70_FMwebp_.jpg" alt="">
+                                    <p>INDICATING LAMP</p>
+                                </td>
+                                <td>
+                                    <img src="https://idideal.in/wp-content/uploads/2019/10/Blinking-Light-Multi-Layer-Tower-Light-Siren-05.jpg" alt="">
+                                    <p>BLINKING LIGHT SIREN</p>
+                                </td>
+                                <td>
+                                    <img src="https://ce8dc832c.cloudimg.io/v7/_cdn_/99/1F/60/00/0/455065_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=07f8feecdc79e8ed6a143e793bb45c0123e4fff6" alt="">
+                                    <p>JOY STICK</p>
+                                </td>
+                                <td>
+                                    <img src="https://m.media-amazon.com/images/I/31Z++xder3L._SX342_SY445_.jpg" alt="">
+                                    <p>PENDANT</p>
+                                </td>
+                                <td>
+                                    <img src="https://robu.in/wp-content/uploads/2019/12/650673-1.jpg" alt="">
+                                    <p>PROXIMITY SENSOR</p>
+                                </td>
+                                <td>
+                                    <img src="https://m.media-amazon.com/images/I/41eCPSZC94L._SX300_SY300_QL70_FMwebp_.jpg" alt="">
+                                    <p>PLUG & SOCKET</p>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://www.theindustrymart.com/Upload/images/product/165p94530.jpg" alt="" style="width: 400px;">
+                                    <p>MOTOR SIREN & BUZZER</p>
+                                </td>
+                                <td>
+                                    <img src="https://m.media-amazon.com/images/I/41eHqZLLNNL._SX300_SY300_QL70_FMwebp_.jpg" alt="">
+                                    <p>PANEL LOCK & KEY</p>
+                                </td>
+                                <td>
+                                    <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/721/MFG_GRD2075061PA.jpg" alt="">
+                                    <p>RUBBER GROMETS</p>
+                                </td>
+                                <td>
+                                    <img src="https://projectpoint.in/image/cache/catalog/bakelite-sheet-672x504.jpg" alt="">
+                                    <p>BACKLITE SHEETS</pp>
+                                </td>
+                                <td>
+                                    <img src="https://5.imimg.com/data5/SELLER/Default/2022/3/QF/XM/ZZ/80821005/open-close-anti-clockwise-sticker-500x500.jpg" alt="">
+                                    <p>STICKER OPEN CLOSE</p>
+                                </td>
+                                <td>
+                                    <img src="https://5.imimg.com/data5/II/PY/MY-39644671/self-adhesive-gasket-tape-500x500.jpg" alt="">
+                                    <p>SELF ADHESIVE GASKET</pp>
+                                </td>
+                                <td>
+                                    <img src="https://m.media-amazon.com/images/I/31hx4B-5cAL._SX300_SY300_QL70_FMwebp_.jpg" alt="">
+                                    <p>TOWER LAMP</p>
+                                </td>    
+                            </tr>
+            
+                        </table><BR></BR>
+      </section>
+     <footer>
+         <div>
+            <div class="brand-title">Shopper.</div>
+            <div>
+                <span class="bi bi-facebook"></span>
+                <span class="bi bi-youtube"></span>
+                <span class="bi bi-twitter"></span>
+                <span class="bi bi-instagram"></span>
+                <span class="bi bi-linkedin"></span>
+            </div>
+         </div>
+         <div>
+            <div class="footer-title">SUPPORT</div>
+            <div>Contact Us</div>
+            <div>FAQs</div>
+            <div>Size Guide</div>
+            <div>Shipping & Returns</div>
+         </div>
+         <div>
+            <div class="footer-title">SHOP</div>
+            <div>Men's Shopping</div>
+            <div>Women's Shopping</div>
+            <div>Kids' Shopping</div>
+            <div>Discounts</div>
+         </div>
+         <div>
+            <div class="footer-title">COMPANY</div>
+            <div>Our Story</div>
+            <div>Careers</div>
+            <div>Terms & Conditions</div>
+            <div>Privacy & Cookie policy</div>
+         </div>
+         <div>
+            <div class="footer-title">CONTACT</div>
+            <address>
+                <div>1-202-555-0105</div>
+                <div>1-202-555-0106</div>
+                <div>help@shopper.com</div>
+            </address>
+         </div>
+     </footer>
+</body>
+</html>
